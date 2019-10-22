@@ -27,6 +27,7 @@ public class HelloWS {
 
     /**
      * Creates a new instance of HelloWS
+     * TEST PUSH
      */
     public HelloWS() {
     }
@@ -41,7 +42,7 @@ public class HelloWS {
     @Produces("application/json")
     public String sayHello() {
         //TODO return proper representation object
-        return "Hello there!"; 
+        return "Hello there! (git push)"; 
     }
 
 
